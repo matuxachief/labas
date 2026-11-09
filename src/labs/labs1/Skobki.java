@@ -1,4 +1,4 @@
-package labs;
+package labs.labs1;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
