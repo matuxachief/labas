@@ -2,7 +2,7 @@ package labs.laba3_3;
 
 import java.util.List;
 
-public class GenericInsertionSort<T extends Comparable<T>> implements Sorting<T> {
+public class GenericInsertionSort<T extends Comparable<? super T>> implements Sorting<T> {
     @Override
     public void sort(List<T> nums) {
         int n = nums.size();
