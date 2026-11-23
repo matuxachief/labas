@@ -1,0 +1,7 @@
+package labs.laba5_1;
+
+public interface HashMap<K, V> {
+    void put(K key, V value);
+    V getValue(K key);
+    V delete(K key);
+}
